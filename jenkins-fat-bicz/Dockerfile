@@ -1,4 +1,4 @@
-FROM jenkins:2.60.3
+FROM jenkins/jenkins:2.60.3
 MAINTAINER Arek Czarny, TT: @arekczarny
 ARG MAVEN_VERSION=3.5.0
 ARG USER_HOME_DIR="/usr/share/jenkins"
